@@ -6,3 +6,6 @@
 Bokeh Version ``3.2.0`` (?? April 2023) is a minor milestone of Bokeh project.
 
 * Official support for Python 3.8 was removed
+* ``CustomJS`` now caches the compiled function
+* ``CustomJS.code`` is now a required property
+* Callbacks in bokehjs are now asynchronous by default
